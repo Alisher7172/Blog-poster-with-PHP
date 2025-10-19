@@ -83,24 +83,22 @@ require 'includes/header.php';
     <hr class="featurette-divider">
     <div class="row featurette">
         <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Discover something new daily.<span class="text-body-secondary"><br><a href="post.php">See for yourself.</a><br><br></span></h2>
+            <p class="lead">Discover something new daily by dedicating just ten minutes to intentional learning. This doesn't require a textbook; it simply means opening yourself up to information. Read an article outside your field, explore a new feature on an app you use, or ask a thoughtful question to a colleague. These micro-moments of discovery compound quickly, making you more informed and adaptable over time.</p>
         </div>
-        <div class="col-md-5 order-md-1"> <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-            </svg> </div>
+        <div class="col-md-5 order-md-1">
+            <img src="pictures/slide_pic2.jpg" class="featurette-image img-fluid mx-auto d-block" width="500" height="500" alt="Networking with like-minded individuals">
+         </div>
     </div>
     <hr class="featurette-divider">
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Capture and share your experiences. <span class="text-body-secondary"><a href="post.php">Dive in.</a></span></h2>
+            <p class="lead">Capture and share your experiences as a vital part of your personal growth. Don't let your valuable insights fade away. Whether it's a major milestone or a small, impactful discovery, documenting these moments allows you to reflect, learn, and appreciate how far you've come. Your shared perspective could be the exact inspiration someone else needs to start their own journey.</p>
         </div>
-        <div class="col-md-5"> <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-            </svg> </div>
+        <div class="col-md-5">
+            <img src="pictures/slide_pic3.jpg" class="featurette-image img-fluid mx-auto d-block" width="500" height="500" alt="Networking with like-minded individuals">
+        </div>
     </div>
     <hr class="featurette-divider"> <!-- /END THE FEATURETTES -->
 </div><!-- /.container --> <!-- FOOTER -->
