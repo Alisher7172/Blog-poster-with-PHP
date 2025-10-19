@@ -2,37 +2,33 @@
             <div class="row">
                 <div class="col-12 col-md"> <img class="mb-2" src="data:image/jpeg;base64,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" alt="" width="24" height="19"> <small class="d-block mb-3 text-body-secondary">&copy; 2017–2025</small> </div>
                 <div class="col-6 col-md">
-                    <h5>Features</h5>
+                    <h5>Reference</h5>
                     <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Help center</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact admin</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Partnership</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
-                    <h5>Resources</h5>
+                    <h5>Company</h5>
                     <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">About</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">terms of Service</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
-                    <h5>About</h5>
+                    <h5>Partners</h5>
                     <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">partner 1</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">partner 2</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">partner 3</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
-    </main>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-</html>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </body>
+
+        </html>
