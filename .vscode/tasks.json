@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "PHP lint files",
+			"type": "shell",
+			"command": "php",
+			"args": [
+				"-l",
+				"blog.php",
+				";",
+				"php",
+				"-l",
+				"database.php"
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		}
+	]
+}
