@@ -254,3 +254,174 @@
  .bd-mode-toggle .dropdown-menu .active .bi {
      display: block !important
  }
+
+
+ .stats-container {
+    max-width: 1000px;
+    width: 90%;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Cards */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Card Styling */
+.stat-card {
+    background-color: #ededed;
+    padding: 30px;
+    border-radius: 20px; 
+    position: relative;
+    overflow: hidden; 
+    min-height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.stat-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+    max-width: 80%;
+}
+
+/* Decorative Image Placeholders (Simulating the 3D objects) */
+.stat-image {
+    position: absolute;
+    z-index: 1; /* Keep it above the card content */
+    opacity: 0.8; /* Slight transparency for visual effect */
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+/* Image 1: 3D Object (Top Right) */
+.stat-image-1 {
+    width: 80px;
+    height: 100px;
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(-10deg);
+    /* Placeholder style for the object */
+    background-color: #9370DB; 
+    border-radius: 50% 50% 10px 10px;
+}
+/* A better simulation for the black/purple object */
+.stat-image-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #333; /* Dark top */
+    border-radius: 50%;
+}
+.stat-image-1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: #C3B1E1; /* Light purple base */
+    border-radius: 50%;
+}
+
+
+/* Image 2: Slinky (Bottom Right) */
+.stat-image-2 {
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%) rotate(10deg);
+    /* Placeholder style for the slinky */
+    background-color: transparent;
+    border: 10px solid #8A2BE2; /* Violet color */
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(138, 43, 226, 0.5) inset;
+}
+
+/* Image 3: Clock (Bottom Right) */
+.stat-image-3 {
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    right: 20px;
+    /* Placeholder style for the clock */
+    background-color: #E6E6FA; /* Light wood color */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.stat-image-3::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+.stat-image-3::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(45deg);
+    width: 2px;
+    height: 25px;
+    background-color: #333; /* Minute hand */
+    transform-origin: bottom;
+}
+
+/* Image 4: Tennis Ball (Bottom Right) */
+.stat-image-4 {
+    width: 120px;
+    height: 120px;
+    bottom: -30px;
+    right: -30px;
+    /* Placeholder style for the tennis ball */
+    background-color: #ADFF2F; /* Green-yellow color */
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .stat-card {
+        min-height: 180px;
+    }
