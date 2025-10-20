@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['DELETE'])) {
         <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Add Blog Post</h1>
             <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-            <p> <a href="post-create.php" class="btn btn-primary my-2">Create Post</a> <a href="post.php" class="btn btn-secondary my-2">See Post</a> </p>
+            <p> <a href="post-create.php" class="btn btn-primary my-2">Create Post</a> <a href="post.php" class="btn btn-secondary my-2">See Post (<i>currently not working</i>)</a> </p>
         </div>
     </div>
 </section>
