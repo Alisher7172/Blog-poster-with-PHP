@@ -5,8 +5,8 @@
 // - $db_error: string error message if connection fails (not echoed here)
 
 $servername = "127.0.0.1"; // Using 127.0.0.1 avoids some socket resolution issues on Windows
-$username = "myphp";
-$password = "1234567";
+$username = "root";
+$password = "Alisherphpmyadmin12";
 $database = "blog-php";
 $port = 3306; // Adjust if your MySQL runs on a different port
 
